@@ -3,11 +3,7 @@ kind: Deployment
 metadata:
   name: sample-app
 spec:
-<<<<<<< HEAD
   replicas: 2
-=======
-  replicas: 3
->>>>>>> 7bffd44733a5d0d20fbb8cd9549ada3b5d51afde
   revisionHistoryLimit: 3
   selector:
     matchLabels:
